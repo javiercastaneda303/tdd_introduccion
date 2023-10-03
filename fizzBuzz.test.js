@@ -1,4 +1,4 @@
-const sum = require('./fizzBuzz');
+const fizzBuzz = require('./fizzBuzz');
 
 test('1-a  return fizz  3', () => {
     expect(fizzBuzz(3)).toBe("fizz");
